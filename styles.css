@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #1e293b, #0b1220);
+  font-family: system-ui, sans-serif;
+  color: white;
+}
+
+.app {
+  padding: 20px;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 22px;
+  margin: 0;
+}
+
+.header p {
+  opacity: 0.6;
+  font-size: 13px;
+}
+
+/* PREMIUM CARD */
+.card {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 20px;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card:hover {
+  background: rgba(255, 255, 255, 0.09);
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card-subtitle {
+  font-size: 13px;
+  opacity: 0.6;
+  margin-top: 4px;
+}
+
+/* GLASS PANEL */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(14px);
+  padding: 16px;
+  border-radius: 16px;
+  display: flex;
+  gap: 10px;
+}
+
+/* PREMIUM BUTTONS */
+.premium-btn {
+  flex: 1;
+  padding: 10px;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.premium-btn.secondary {
+  background: rgba(255, 255, 255, 0.08);
+}
